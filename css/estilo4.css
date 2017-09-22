@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+}
+
+.verde {
+	margin: 5px;
+	background-color:#b0ccab; 
+	padding:50px;
+	font-family: times, verdana, arial;
+	height: 150px;
+}
+
+.parrafo {
+	position:fixed;
+	margin-left:40px;
+}
+
+

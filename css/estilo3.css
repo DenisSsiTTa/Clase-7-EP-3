@@ -1,0 +1,125 @@
+body {
+	margin: 10px;
+}
+
+.borra{
+	clear: both;
+}
+
+.margen {
+    margin: 20px;
+}
+
+.nombreBanderas {
+    margin-top: 5px;
+}
+
+.enLinea{
+    display: inline-block;
+    float: left;
+}
+
+.bandera{
+	width: 200px;
+	height: 150px;
+    border: 1px solid #ccc;
+    position: relative;
+    float: relative;
+}
+
+.rojo {
+    background-color: red;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+}
+
+.amarillo {
+    background-color: yellow;
+    position: absolute;
+    width: 200px;
+    height: 150px;   
+}
+
+.blanco {
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 150px;   
+}
+
+.negro {
+    background-color: black;
+    position: absolute;
+    width: 200px;
+    height: 150px;   
+}
+
+.verde {
+    background-color: green;
+    position: absolute;
+    width: 200px;
+    height: 150px;   
+}
+
+.amarillo1 {
+    height: 60px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 45px;  
+}
+
+.blancoH {
+    height: 20px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 65px;    
+}
+
+.blancoV {
+    width: 20px;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 0;    
+}
+
+
+.verdeH {
+    height: 50px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0px;
+}
+
+.negroH {
+    height: 50px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 100px;
+}
+
+.rojoV {
+    width: 50px;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;    
+}
+
+.circulo {
+    width: 75px;
+    height: 75px; 
+    margin-top: 37.5px;
+    margin-left: 62.5px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+

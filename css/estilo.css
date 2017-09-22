@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+}
+
+.borra{
+	clear: both;
+}
+
+.menu {
+	list-style-type: none;
+	float: left;
+	padding: 50px;
+}
+
+.menuList{
+	background-color: green;
+	height: 80px;
+	position: relative;
+}
+
+.box{
+	box-sizing: border-box;
+	height: 400px;
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.logo {
+	background-image: url("../images/desafio-latam.png");
+	height: 200px;
+	background-size: 60% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.texto{
+	border: 5px 1px 5px 1px;
+	display: inline-block;
+	vertical-align: justify;
+	line-height: normal;
+}
+

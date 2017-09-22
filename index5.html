@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8" />
+ 	<title>z-index</title>
+ 	<style>
+ 		html, body { margin: 0; }
+ 		.elem {
+ 			width: 300px;
+ 			height: 300px;
+ 		}
+ 		.producto {
+ 			background-image: url("images/ribbon_oferta.png");
+ 			background-repeat: no-repeat;
+ 			background-position: relative;
+
+ 			z-index: -10;
+ 		}
+ 		.oferta {
+			background-image: url("images/label_red.png");
+			background-repeat: no-repeat;
+			background-position: fixed;
+			background-size: 200px;
+ 			left: 22px;
+ 			position: absolute;
+ 			top: 34px;
+ 			z-index: 10;
+ 		}
+ 	</style>
+ </head>
+ <body>
+ 	<div class="elem producto"></div>
+ 	<div class="elem oferta"></div>
+ </body>
+ </html>
